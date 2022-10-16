@@ -303,17 +303,33 @@ text-align: center;
 }
 .course .link-zoom a{
     display: block;
+    color: var(--b4);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 2px 2px 2px 10px;
+    border-radius: 20px;
+    
+}
+.course .link-zoom a i{
+    display: block;
     color: var(--b6);
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     background-color: var(--b4);
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 4px;
     
 }
-.course .link-zoom p{
+.course .link-zoom a>p{
+        font-size: 0.7em;
+}
+.course .link-zoom >p{
     font-size: 0.8em;
     margin-top: 4px;
     color: var(--b5);
