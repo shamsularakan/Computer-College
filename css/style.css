@@ -274,7 +274,7 @@ text-align: center;
 }
 .course .time i{
     
-    color: var(--b4);
+    color: var(--b1);
 }
 .course .title{
     position: relative;
@@ -341,6 +341,6 @@ text-align: center;
 .course .link-zoom >p{
     font-size: 0.8em;
     margin-top: 4px;
-    color: var(--b5);
+    color: var(--b1);
 }
 /* end courses */
