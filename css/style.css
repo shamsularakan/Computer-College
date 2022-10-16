@@ -164,10 +164,18 @@ body{
     width: 100px;
     height: 300px;
     
-    position: relative;
+    position: absolute;
     padding: 7px 6px;
     background-color: #fff;
     z-index: 999;
+}
+
+.navbar ul{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
 }
 @media (max-width: 768px) {
     .navbar{
@@ -181,12 +189,13 @@ body{
         z-index: 999;
     }
     
-}
-.navbar ul{
+    .navbar ul{
     
-    display: flex;
-    justify-content: space-evenly;
-    
+        
+        flex-direction: row;
+        
+        
+    }
 }
 .navbar ul li{
     
