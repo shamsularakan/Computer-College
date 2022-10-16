@@ -207,7 +207,7 @@ text-align: center;
 .courses{
     position: relative;
 }
-.courses .header{
+.courses .header {
     display: grid;
     justify-content: center;
     align-content: center;
@@ -219,6 +219,7 @@ text-align: center;
     z-index: -1;
     color: var(--b6);
 }
+
 .courses .header h5{
     color: #fff;
     z-index: 2;
@@ -296,13 +297,14 @@ text-align: center;
     
     
     margin-right: auto;
-    display: grid;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     
 }
 .course .link-zoom a{
-    display: block;
+    width: 99px;
     color: var(--b4);
     text-decoration: none;
     display: flex;
