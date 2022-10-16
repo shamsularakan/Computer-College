@@ -264,6 +264,7 @@ text-align: center;
     align-self: flex-end;
     text-align: center;
     padding: 5px 8px;
+    color: #8590D0;
 }
 .course .time i{
     
@@ -294,7 +295,7 @@ text-align: center;
 
 
 .course .link-zoom{
-    
+    width:120px;
     
     margin-right: auto;
     display: flex;
@@ -304,7 +305,7 @@ text-align: center;
     
 }
 .course .link-zoom a{
-    width: 99px;
+    
     color: var(--b4);
     text-decoration: none;
     display: flex;
